@@ -17,13 +17,13 @@
             if(typeof(start_content['chase_title'])!='undefined' && start_content['chase_title']!=''){
                 $('.div_oy_text h1').html(start_content['chase_title']); //加载自定义内容
             }else{
-                $('.div_oy_text h1').html('做我女朋友好不好'); //设置默认值
+                $('.div_oy_text h1').html('我们在一起嘛好不好'); //设置默认值
             }
 
             if(typeof(start_content['chase_text'])!='undefined' && start_content['chase_text']!=''){ 
                 $('.div_oy_text .p_oy_text').html(start_content['chase_text']); //加载自定义内容
             }else{ //设置默认值
-                $('.div_oy_text .p_oy_text').html('小可爱，我喜欢你好久了。不只是遇见你，即使只是想起你，都会让我小鹿突突地乱撞。我一定会好好地疼你，你做我女朋友好不好？');
+                $('.div_oy_text .p_oy_text').html('蛋蛋宝宝，我好喜欢你。特别幸运能够遇见你，和你相处的每一分钟都很开心。每当想起你的时候，我的心都会咚咚咚地乱跳。我一定会好好地疼你，我们在一起好不好？');
             }
             
             // 设置正文之前的照片
